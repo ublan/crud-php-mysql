@@ -1,5 +1,5 @@
 <?php 
-    include("connection.php");
+    include("conection.php");
     $con=conection();
 
     $id=$_GET['id'];
@@ -11,12 +11,12 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
-        <title>Editar usuarios</title>
+        <link href="CSS/style.css" rel="stylesheet">
+        <h1>Editar usuarios</h1>
         
     </head>
     <body>
