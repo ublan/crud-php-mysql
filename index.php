@@ -20,7 +20,7 @@ $query = mysqli_query($cone, $sql);
 <body>
     <div class="users-form">
         <h1>Crear usuario</h1>
-        <form action="insert_user.php" method="POST">
+        <form action="insert_users.php" method="POST">
             <input type="text" name="name" placeholder="Nombre">
             <input type="text" name="lastname" placeholder="Apellidos">
             <input type="text" name="username" placeholder="Username">
